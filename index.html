@@ -13,11 +13,24 @@
           width:auto;
           height:60px;
       }
+      .jumbotron {
+        height: 50em;
+            display: flex;
+            margin-bottom: 1em;
+            align-items:center ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("./images/pexels-vie-studio-7006256.jpg");
+      }
+
+      body {
+        /* background-image: url("./images/opening.jpeg"); */
+        /* background-repeat: no-repeat; */
+        height: 500px;
+      }
   </style>
 </head>
 <body>
-
-  <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" > <h4><img src="images/depression.png" class='homeImg'> Bipolar Disorder</h4></a>
@@ -27,7 +40,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="help.html">Help</a>
@@ -37,10 +50,10 @@
               Info
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Bipolar I</a></li>
+              <li><a class="dropdown-item" href="info.html#bp1">Bipolar I</a></li>
               <li><a class="dropdown-item" href="#">Bipolar II</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="info.html">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
           
@@ -52,6 +65,13 @@
       </div>
     </div>
   </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <p class="display-4 fw-bold text-dark"> Introduction to Bipolarity Disorder</p>
+      <p class="lead fw-bold text-dark fs-4">Learn more about this condition here</p>
+    </div>
+  </div>
 
 
    <!-- JavaScript Bundle with Popper -->
