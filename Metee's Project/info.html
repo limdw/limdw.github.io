@@ -4,9 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Document</title>
+
+    <style>
+      .homeImg {
+          width:auto;
+          height:60px;
+      }
+      .sideImg {
+        width: 200px;
+        height:700px;
+        float:top;
+      }
+
+      ul {
+        text-align: left;
+      }
+  </style>
 </head>
 <body>
-    
+
+    <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" > <h4><img src="images/depression.png" class='homeImg'> Bipolar Disorder</h4></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="help.html">Help</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="info.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Info
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="info.html#bp1">Bipolar I</a></li>
+              <li><a class="dropdown-item" href="info.html#bp2">Bipolar II</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="info.html">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Body text -->
+  <!-- <div class="jumbotron jumbotron-fluid bg-secondary text-white"> -->
+    <div class="container">
+      <div class="text-center p-5">
+        <img src="images/coverpic1.jpg">
+        <br><hr><br>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h1 class="display-4 fw-bold" >What's Bipolarity Disorder?</h1>
+    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8"> <p class="text-left fs-5">The Bipolar disorder, also known as manic-depressive illness, is a mental disorder that causes unusual shifts in mood, energy, and activity levels. People with bipolar disorder experience extreme highs 
+                    (<a href="https://www.healthline.com/health/mania-vs-hypomania#:~:text=Hypomania%20is%20a%20milder%20form,to%20be%20hospitalized%20for%20it.">mania or hypomania</a>) and extreme lows 
+                    (<a href="https://www.healthline.com/health/to-the-college-student-battling-anxiety-and-depression-its-not-just-stress">depression</a>). These mood episodes can be severe and can last for several days or weeks.
+                    
+                    During a manic episode, a person with bipolar disorder may feel extremely happy, energetic, and productive. They may also have racing thoughts, difficulty sleeping, and engage in risky or impulsive behavior.
+                   
+                    During a depressive episode, a person with bipolar disorder may feel sad, hopeless, and have low energy. They may also have difficulty concentrating, changes in appetite and sleep patterns, and thoughts of death or suicide.
+                    
+                    Bipolar disorder is a chronic condition that requires long-term treatment, typically with a combination of medication and therapy. With proper treatment, it is possible to manage the symptoms of bipolar disorder and live a healthy and productive life.</p>
+                    
+
+                <!-- <div class="col"><img src="images/sideImg.jpg" class='sideImg'> -->
+                </div>
+            </div>
+        </div>
+     
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h1 id="bp1"> Bipolar 1</h1>
+      <br>
+      <p class="fs-5">
+        Bipolar I disorder is defined by manic episodes that last at least 7 days (most of the 
+        day, nearly every day) or by manic symptoms that are so severe that the person needs 
+        immediate hospital care. Usually, depressive episodes occur as well, typically lasting 
+        at least 2 weeks. Episodes of depression with mixed features (having depressive symptoms 
+        and manic symptoms at the same time) are also possible. The experience of four or more 
+        episodes of mania or depression within a year is termed “rapid cycling.”</p>
+        <br>
+        <p class='fw-bold fs-3' >Major Depressive Episodes</p>
+            <br>
+            <p class=" text-left fs-5">
+                A major depressive episode is a period of at least two weeks in which a person has
+                 at least five of the following symptoms (including at least one of the first two
+                symptoms):
+
+            <ul>
+                <li>Intense sadness or despair</li>
+                <li>Loss of interest in activities the person once enjoyed</li>
+                <li>Feelings of worthlessness or guilt</li>
+                <li>Fatigue</li>
+                <li>Increased or decreased sleep</li>
+                <li>Increased or decreased appetite</li>
+                <li>Restlessness (ie. pacing) or slowed speech or movement</li>
+                <li>Difficulty concentrating</li>
+                <li>Frequent thoughts of death or suicide</li>
+            </ul>
+            <br>
+        <p class='fw-bold fs-3' >Treatment and Management</p>
+
+        <p class="fs-5">
+            <p class="fs-5">Bipolar disorder symptoms commonly improve with treatment. Medication is the cornerstone of bipolar disorder treatment, though talk therapy (psychotherapy) can help many patients learn about their illness and adhere to medications, preventing future mood episodes.
+                <br>
+                Medications known as “mood stabilizers” work too by correcting imbalanced brain signaling
+
+        </p>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h1 id="bp2"> Bipolar 2</h1>
+      <br>
+      <p class="fs-5">
+        A diagnosis of bipolar II disorder requires someone to have at least one 
+        major depressive episode and at least one hypomanic episode. 
+        People return to their usual functioning between episodes. 
+        People with bipolar II disorder often first seek treatment as a result of 
+        their first depressive episode, since hypomanic episodes often feel pleasurable 
+        and can even increase performance at work or school.
+        <br>
+        People with bipolar II disorder frequently have other mental illnesses such as 
+        an anxiety disorder or substance use disorder, the latter of which can exacerbate 
+        symptoms of depression or hypomania.
+        <br>
+    </p>
+        <p class='fw-bold fs-3' >Treatment</h3>
+        <br>
+        <p class="fs-5">
+            Treatments for bipolar II are similar to those for bipolar I: medication and psychotherapy.
+             The most commonly used medications are mood stabilizers and antidepressants, depending on 
+             the specific symptoms. If depressive symptoms are severe and medication is not effective, 
+             ECT may be used. ECT involves several rounds of a brief electrical current applied to the scalp while the patient is under anesthesia, leading to a short, controlled seizure. ECT-induced seizures are believed to remodel brain signaling pathways.
+    <br>
+             Each person's treatment is individualized as everyone is different.
+    </div>
+  </div>
+  
+
+
+
+
+
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
